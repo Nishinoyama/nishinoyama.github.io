@@ -1,5 +1,13 @@
 
+*{
+    color : #111111;
+    background-color : #cccccc;
+}
+
 p {
-    color : white;
-    background-color : gray;
+    color : black;
+}
+
+h1 {
+    color : black;
 }
