@@ -2,9 +2,11 @@
 body{
     color : #111111;
     background-color : #cccccc;
+    margin : 34px;
 }
 
 p {
+    margin : 12px;
     color : black;
 }
 
