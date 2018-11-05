@@ -12,7 +12,7 @@ p {
     color : black;
 }
 
-p.incomoplete {
+p.incomplete {
     margin : 12px;
     color : gray;
 }
