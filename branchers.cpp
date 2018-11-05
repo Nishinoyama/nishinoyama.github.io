@@ -36,7 +36,7 @@ typedef long long unsigned int ll;
 // }}} 1
 
 
-#define SIZE 30000
+#define SIZE 100000
 
 int printarrcounter = 1;
 void printarr( int* data ){
@@ -47,23 +47,7 @@ void printarr( int* data ){
     printf("\n");
 }
 
-clock_t StartTiming, EndTiming;
-
-int main() {
-
-    int leng = SIZE;
-
-    int data[SIZE] = {};
-    int tmp = 0;
-
-    Rep(i,leng){
-        data[i] = SIZE - i;
-    }
-
-    //printarr(data);
-
-    //時間計測開始（μs単位 )
-    StartTiming = clock();
+void bubblesort( int* data ){
     //バブルソートのテスト 昇順
     for (int sorted = 0; sorted < leng; sorted++){
         //sortedまでソート
@@ -76,10 +60,32 @@ int main() {
             }
         }
     }
+}
+
+clock_t StartTiming, EndTiming;
+
+int main() {
+
+    int leng = SIZE;
+
+    int data[SIZE] = {};
+    int tmp = 0;
+
+    Rep(i,leng){
+        data[i] = i;
+    }
+
+    printarr(data);
+
+    //時間計測開始（μs単位 )
+    StartTiming = clock();
+
+    bubblesort(data);
+
     //時間計測終了（μs単位 )
     EndTiming = clock();
 
-    //printarr(data);
+    printarr(data);
 
     //時間計測結果
     printf ("%d.%03dms\n", (int)((EndTiming-StartTiming)/1000), (int)((EndTiming-StartTiming)%1000));
