@@ -12,6 +12,11 @@ p {
     color : black;
 }
 
+p.incomplete {
+    margin : 12px;
+    color : gray;
+}
+
 h1 {
     color : black;
 }
