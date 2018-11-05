@@ -16,7 +16,7 @@ h1 {
     color : black;
 }
 
-pre{
+pre.consoleful{
     color : #11ff11;
     background-color : #000000cc;
     border : 2px solid white;

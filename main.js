@@ -18,7 +18,7 @@ function atx(){
     let snnn = false;
     let snnnn = "37";
     let snnnnn = "SN";
-    //37以上のSNNN数に反応
+    //377以上のSNNN数に反応
     for( let c = 0; c < 10000; c++ ){
         snnnn += "7";
         snnnnn += "N";
