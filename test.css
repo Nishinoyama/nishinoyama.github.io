@@ -27,3 +27,7 @@ pre.consoleful{
 img {
     border : 1px solid black;
 }
+
+hr{
+    size : 3px;
+}
