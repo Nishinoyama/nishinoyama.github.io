@@ -19,6 +19,11 @@ h1 {
 pre{
     color : #11ff11;
     background-color : #000000cc;
-    border : 1px solid white;
-    margin : 12px;
+    border : 2px solid white;
+    margin : 8px;
+    margin-left: 21px
+}
+
+img {
+    border : 1px solid black;
 }
