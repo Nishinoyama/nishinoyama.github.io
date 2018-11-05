@@ -16,6 +16,7 @@ function atx(){
     }
 
     //じぇじぇじぇ
+    //やったか？
 
     let snnn = false;
     let snnnn = "37";
