@@ -1,8 +1,10 @@
 
 body{
     color : #111111;
-    background-color : #cccccc;
-    margin : 34px;
+    background-color : #eeeeee;
+    margin: 34px;
+    border : 3px solid gray;
+    padding : 6px;
 }
 
 p {
@@ -12,4 +14,11 @@ p {
 
 h1 {
     color : black;
+}
+
+pre{
+    color : #11ff11;
+    background-color : #000000cc;
+    border : 1px solid white;
+    margin : 12px;
 }
