@@ -12,6 +12,11 @@ p {
     color : black;
 }
 
+p.incomplete {
+    margin : 12px;
+    color : gray;
+}
+
 h1 {
     color : black;
 }
@@ -21,7 +26,8 @@ pre.consoleful{
     background-color : #000000cc;
     border : 2px solid white;
     margin : 8px;
-    margin-left: 21px
+    margin-left: 21px;
+    padding : 3px;
 }
 
 img {
