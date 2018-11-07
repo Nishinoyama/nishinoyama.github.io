@@ -13,8 +13,11 @@ p {
 }
 
 p.incomplete {
-    margin : 12px;
     color : gray;
+}
+
+p.kusodekaaka{
+    color : red;
 }
 
 h1 {
