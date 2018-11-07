@@ -16,8 +16,42 @@ p.incomplete {
     color : gray;
 }
 
+p.hutuukomento{
+    margin: 6px;
+    margin-right: -50%;
+    animation: commentstream 10s linear 0s infinite normal running;
+}
+
+@keyframes commentstream{
+    0%{
+        margin-left: 120%;
+    }
+    100%{
+        margin-left: -20%;  
+    }
+}
+
 p.kusodekaaka{
+    margin: 6px;
+    letter-spacing: 20px;
+    font-size: 2.25em;
+    font-weight: 800;
+    text-align: center;
     color : red;
+    visibility: hidden;
+    animation: komento 6s linear 3s infinite normal running;
+}
+
+@keyframes komento{
+    0%{
+        visibility: hidden;
+    }
+    40%{
+        visibility: visible;
+    }
+    60%{
+        visibility: hidden;
+    }
 }
 
 
