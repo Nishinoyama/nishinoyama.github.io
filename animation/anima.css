@@ -19,27 +19,20 @@ div{
 
 .cirbox{
     background: #0f0;
-    animation: rotation 2s ease 0ms infinite alternate none running;
+    animation: rotation 2s ease 0s infinite alternate none running;
 }
 
 @keyframes rotation{
     0% {
         transform : scale(.3);
     }
-
-    10% {
-        transform : scale(.3);
-    }
-
     50% {
-        transform: scale(.6) rotate(-135deg);
+        transform: scale(.6) rotate(-45deg);
         background: blue;
-        border-radius: 10%;
     }
     100% {
-        transform: scale(1) rotate(180deg);
+        transform: scale(1) rotate(90deg);
         background: red;
-        border-radius: 50%;
     }
 }
 
@@ -77,11 +70,9 @@ div{
 
 .circlize{
     transition: all 500ms 0s ease;
-    background: #f00
 }
 
 .circlize:hover{
     border-radius: 50%;
     background: #0f0;
 }
-
