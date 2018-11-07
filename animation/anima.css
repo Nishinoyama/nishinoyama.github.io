@@ -30,7 +30,7 @@ div{
     10% {
         transform : scale(.3);
     }
-    
+
     50% {
         transform: scale(.6) rotate(-135deg);
         background: blue;
@@ -84,3 +84,4 @@ div{
     border-radius: 50%;
     background: #0f0;
 }
+
