@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-#define SIZE 100
+#define SIZE 1000
 
 int printarrcounter = 1;
 void printarr( int* data ){
