@@ -13,13 +13,13 @@ void printarr( int* data ){
 }
 
 void bubblesort( int* data ){
-    //ƒoƒuƒ‹ƒ\[ƒg‚ÌƒeƒXƒg ¸‡
+    //ãƒãƒ–ãƒ«ã‚½ãƒ¼ãƒˆã®ãƒ†ã‚¹ãƒˆ æ˜‡é †
     int tmp;
     for (int sorted = 0; sorted < SIZE; sorted++){
-        //sorted‚Ü‚Åƒ\[ƒg
-        for (int hit = SIZE-1; hit > 0 ; hit--){ //hit‚©‚ç¶‚É~‚è‚Ä‚¢‚­
-            if( data[hit-1] > data[hit] ){ //ğŒ‚É‡‚í‚¹‚é
-                //ƒXƒƒbƒvI
+        //sortedã¾ã§ã‚½ãƒ¼ãƒˆ
+        for (int hit = SIZE-1; hit > 0 ; hit--){ //hitã‹ã‚‰å·¦ã«é™ã‚Šã¦ã„ã
+            if( data[hit-1] > data[hit] ){ //æ¡ä»¶ã«åˆã‚ã›ã‚‹
+                //ã‚¹ãƒ¯ãƒƒãƒ—ï¼
                 tmp = data[hit-1];
                 data[hit-1] = data[hit];
                 data[hit] = tmp;
@@ -37,22 +37,22 @@ int main() {
     int data[SIZE] = {};
 
     for( int i = 0; i < leng; i++){
-        data[i] = leng-i;//~‡‚É”’l‚ğ“Š‰º
+        data[i] = leng-i;//é™é †ã«æ•°å€¤ã‚’æŠ•ä¸‹
     }
 
     printarr(data);
 
-    //ŠÔŒv‘ªŠJniƒÊs’PˆÊ )
+    //æ™‚é–“è¨ˆæ¸¬é–‹å§‹ï¼ˆÎ¼så˜ä½ )
     StartTiming = clock();
 
     bubblesort(data);
 
-    //ŠÔŒv‘ªI—¹iƒÊs’PˆÊ )
+    //æ™‚é–“è¨ˆæ¸¬çµ‚äº†ï¼ˆÎ¼så˜ä½ )
     EndTiming = clock();
 
     printarr(data);
 
-    //ŠÔŒv‘ªŒ‹‰Ê
+    //æ™‚é–“è¨ˆæ¸¬çµæœ
     printf ("%d.%03dms\n", (int)((EndTiming-StartTiming)/1000), (int)((EndTiming-StartTiming)%1000));
 
     return 0;
