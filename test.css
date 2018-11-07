@@ -1,25 +1,26 @@
 
 body{
-    color : #111111;
-    background-color : #eeeeee;
+    color : deepskyblue;
+    /* background-color : #eeeeee; */
     margin: 34px;
     border : 3px solid gray;
     padding : 6px;
+    background:linear-gradient( darkblue, black );
 }
 
 p {
     margin : 12px;
-    color : black;
+    color : white;
 }
 
 p.incomplete {
-    margin : 12px;
     color : gray;
 }
 
-h1 {
-    color : black;
+p.kusodekaaka{
+    color : red;
 }
+
 
 pre.consoleful{
     color : #11ff11;

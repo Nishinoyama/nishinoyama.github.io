@@ -1,7 +1,11 @@
-.box{
+
+div{
     width : 100px;
     height: 100px;
     background: #000;
+}
+
+.box{
     /* transition - (all) 遂行時間 遅延時間 遂行方法 */
     transition: all 1000ms 0s ease;
 }
@@ -13,10 +17,7 @@
     background: #888;
 }
 
-
 .cirbox{
-    width : 100px;
-    height: 100px;
     background: #0f0;
     animation: rotation 2s ease 0s infinite alternate none running;
 }
@@ -65,4 +66,13 @@
     100%{
         transform: rotate(360deg);
     }
+}
+
+.circlize{
+    transition: all 500ms 0s ease;
+}
+
+.circlize:hover{
+    border-radius: 50%;
+    background: #0f0;
 }
