@@ -30,6 +30,7 @@ function atx(){
     if( snnn ) alert( snnnnn + "姉貴すき");
 
 
+
 }
 
 let x = 0;

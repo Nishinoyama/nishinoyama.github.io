@@ -8,5 +8,5 @@
 
 <br>
 <h2>Project in Future</h2><br>
-CSSでやるアニメーション
-JavaScrpiptでつくる簡単なゲーム
+CSSでやるアニメーション<br>
+JavaScrpiptでつくる簡単なゲーム<br>
