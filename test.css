@@ -2,9 +2,17 @@
 body{
     color : deepskyblue;
     margin: 34px;
-    border : 3px solid gray;
+    /* border : 3px solid gray; */
     padding : 6px;
     background:linear-gradient( darkblue, black );
+}
+
+main {
+    color : deepskyblue;
+    margin: 34px;
+    border : 3px solid gray;
+    padding : 6px;
+    background:#0000ff22;
 }
 
 p {
@@ -17,6 +25,10 @@ p.incomplete {
 }
 
 
+mark {
+    background-color: darkred;
+    color: #11ff11;
+}
 
 pre.consoleful{
     color : #11ff11;
@@ -34,10 +46,23 @@ img {
 hr{
     size : 3px;
 }
+hr.big{
+    size : 8px;
+}
 
 a{
     border-radius: 10%;
 }
+
+
+strong{
+    color : red;
+}
+
+/*
+ * リンクのあるやつの定義
+ * バニラじゃ見えん！
+ */
 
 a:link{
     color: aqua;
