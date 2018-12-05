@@ -77,7 +77,7 @@ div{
 
 .circlize{
     transition: all 500ms 0s ease;
-    background: #f00
+    background: #f00;
 }
 
 .circlize:hover{
