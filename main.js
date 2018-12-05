@@ -15,6 +15,7 @@ function atx(){
         alert("ほら、みろよみろよ、見とけよ見とけよ〜")
     }
 
+
     let snnn = false;
     let snnnn = "37";
     let snnnnn = "SN";
