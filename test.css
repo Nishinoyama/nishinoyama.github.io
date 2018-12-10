@@ -24,6 +24,11 @@ p.incomplete {
     color : gray;
 }
 
+p.footp {
+    color : gray;
+    font-size: smaller;
+    text-align: center;
+}
 
 mark {
     background-color: darkred;
