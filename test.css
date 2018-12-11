@@ -4,7 +4,8 @@ body{
     margin: 34px;
     /* border : 3px solid gray; */
     padding : 6px;
-    background:linear-gradient( darkblue, black );
+    background:linear-gradient( #004 , #000 );
+    text-shadow: 0 0 6px rgba(0, 255, 255, 0.418);
 }
 
 main {
@@ -42,6 +43,7 @@ pre.consoleful{
     margin : 8px;
     margin-left: 21px;
     padding : 3px;
+    text-shadow: 0 0 #0000;
 }
 
 img {
@@ -59,10 +61,21 @@ a{
     border-radius: 10%;
 }
 
+a.not-access {
+    cursor : default;
+}
+
 
 strong{
     color : red;
 }
+
+strong.important,strong.significant{
+    color : red;
+    size: 30px;
+}
+
+
 
 /*
  * リンクのあるやつの定義
@@ -74,7 +87,7 @@ a:link{
     background-color : blue;
 }
 a:visited{
-    color: lightblue; 
+    color: lightblue;
     background-color : blueviolet;
 }
 a:hover{
