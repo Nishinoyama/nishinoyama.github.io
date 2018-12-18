@@ -10,7 +10,7 @@ div{
     transition: all 1000ms 0s ease;
 }
 
-.box:hover{ 
+.box:hover{
     /* onマウスでの動きの最終点 */
     width : 200px;
     height: 100px;

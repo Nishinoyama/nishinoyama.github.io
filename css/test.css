@@ -1,0 +1,159 @@
+
+
+body{
+    color : deepskyblue;
+    margin: 34px;
+    padding : 6px;
+    background:linear-gradient( #001 , #000 );
+}
+
+
+main {
+    color : deepskyblue;
+    margin: 34px;
+    border : 1px solid white;
+    border-radius: 12px;
+    box-shadow : 0 0 24px 12px white;
+    padding : 6px;
+    background:#00002222;
+}
+
+p {
+    margin : 12px;
+    color : white;
+}
+
+p.incomplete {
+    color : gray;
+}
+
+p.footp {
+    color : gray;
+    font-size: smaller;
+    text-align: center;
+}
+
+mark {
+    background-color: darkred;
+    color: #11ff11;
+}
+
+pre.consoleful{
+    color : #11ff11;
+    background-color : #000000cc;
+    border : 2px solid white;
+    margin : 8px;
+    margin-left: 21px;
+    padding : 3px;
+    text-shadow: 0 0 #0000;
+}
+
+img {
+    border : 1px solid black;
+}
+
+hr{
+    size : 3px;
+    margin : 0;
+    border : 0;
+    color : #0000;
+    box-shadow: 0 0 5px 2px white;
+}
+hr.big{
+    size : 8px;
+}
+
+button:active{
+    padding : none;
+}
+
+button.wbb{
+    font-size: 24px;
+    display: inline;
+    padding : 2px 3px;
+    text-decoration: none;
+    background: skyblue;
+    border : none;
+    border-bottom : 3px solid blue;
+    border-radius: 2px;
+    color : black;
+
+    transition: all 100ms 0ms linear;
+}
+
+button.wbb:hover{
+    color : #333;
+    background: white;
+    border-bottom-color : skyblue;
+}
+
+button.wbb:active{
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-top: 0px solid blue;
+    border-bottom: 0px solid;
+}
+
+button.cir{
+    font-size: 24px;
+    display: inline;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(#999 0%, #777 100%);
+    border : none;
+    border-radius: 50%;
+    color : black;
+
+    transition: all 80ms 10ms linear;
+}
+
+button.cir:hover{
+    box-shadow: 0 0 12px 1px #ffff11 inset;
+}
+
+button.cir:active{
+    box-shadow: 0 0 12px 2px #11ff11 inset;
+}
+
+a{
+    border-radius: 10%;
+}
+
+a.not-access {
+    cursor : default;
+}
+
+
+strong{
+    color : red;
+}
+
+strong.important,strong.significant{
+    color : red;
+    size: 30px;
+}
+
+
+
+/*
+ * リンクのあるやつの定義
+ * バニラじゃ見えん！
+ */
+
+a:link{
+    color: aqua;
+    background-color : blue;
+}
+a:visited{
+    color: lightblue;
+    background-color : blueviolet;
+}
+a:hover{
+    color: aqua;
+    background-color : darkblue;
+}
+a:active{
+    color: red;
+    background-color : darkblue;
+}
