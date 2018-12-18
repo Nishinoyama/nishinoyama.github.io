@@ -1,0 +1,11 @@
+
+:root{
+    --length : 20px;
+}
+
+.stick{
+    background-color: red;
+    transition: all , 0.5s;
+    width: 10px;
+    height: var(--length); 
+}

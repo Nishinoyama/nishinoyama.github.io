@@ -1,20 +1,32 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="../test.css" >
-        <title>
-            西の山のホームページ
-        </title>
-    </head>
 
-    <body>
-        <form name="formal">
-            <h1>そーとびじゅあらいざー</h1>
-            <hr>
-        <h2> 概要 </h2>
-        <p> 準備中... </p>
+<head>
+    <link rel="stylesheet" href="../test.css">
+    <link rel="stylesheet" href="./sorting.css">
+    <title>
+        西の山のホームページ
+    </title>
+</head>
+
+<body>
+    <header>
+        <h1>そーとびじゅあらいざー</h1>
         <hr>
+    </header>
+    <main>
+        <h2> 野望 </h2>
+        <p> どう考えてもまずやるべきは動的に動かす術を学ばねば </p>
+        <hr>
+        <h2> 長さの変更 </h2>
+        <p>好き勝手いじったら棒もついてくる</p>
+        <input id="leng" type="range" min="0" max="500" value="20">
+        <p id = "value"></p>
+        <div class="stick"></div>
         <h2> おまけ </h2>
         <p> <a href="../branchers.cpp">c++ による バブルソート</a> </p>
-        </form>
-    </body>
+    </main>
+    
+    <script src="sorting.js" type="text/javascript"> </script>
+</body>
+
 </html>
