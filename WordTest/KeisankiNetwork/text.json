@@ -13,7 +13,7 @@
   ["ARP","Address Resolution Protocol"],
   ["DNS","Domain Name System"],
   ["CAM","Content Addressable Memory"],
-  ["Auto-MDIX","Automatic Media-Dependent Interface Crossover"],
+  ["Auto-MDIX","Automatic Medium-Dependent Interface Crossover"],
   ["PoE","Power over Ethernet"],
   ["SFP","Small Form-Factor Pluggable"],
   ["FIB","Forwarding Information Base"],
