@@ -9,7 +9,7 @@
   ["SFD","Start Frame Delimiter"],
   ["FCS","Frame Check Sequence"],
   ["VLAN","Virtual Local Area Network"],
-  ["CRC","Cyclic Resolution Check"],
+  ["CRC","Cyclic Redundancy Check"],
   ["ARP","Address Resolution Protocol"],
   ["DNS","Domain Name System"],
   ["CAM","Content Addressable Memory"],
