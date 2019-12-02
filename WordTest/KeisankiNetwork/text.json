@@ -8,7 +8,7 @@
   ["BIA","Burned-In Address"],
   ["SFD","Start Frame Delimiter"],
   ["FCS","Frame Check Sequence"],
-  ["VLAN","Virtual Local Access Network"],
+  ["VLAN","Virtual Local Area Network"],
   ["CRC","Cyclic Resolution Check"],
   ["ARP","Address Resolution Protocol"],
   ["DNS","Domain Name System"],
